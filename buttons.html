@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="col-12 head">
+            <div class="row">
+                <div class="col-2 home">
+                    <a href="index.html"><img src="images/home.png" class="home-btn" alt="home"></a>
+                </div>
+                <div class="col-3 name">
+                    <h2>Pattern Library</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="col-2 nav">
+            <div class="row">
+                <div class="nav-title">
+                    <h3>Components</h3>
+                </div>
+                <ul>
+                    <li><a href="buttons.html">Buttons</a></li>
+                    <li><a href="footer.html">Footer</a></li>
+                    <li><a href="header.html">Header</a></li>
+                    <li><a href="jumbotron.html">Jumbotron</a></li>
+                    <li><a href="modal.html">Modal</a></li>
+                    <li><a href="nav-bar.html">Nav Bar</a></li>
+                </ul>
+                <div class="nav-title">
+                    <h3>Documentation</h3>
+                </div>
+                <ul>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-9 main">
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-11 page-title">
+                    <h1>Buttons</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-5 component">
+                    <h3>Component</h3>
+                    <button class="main-btn">
+                        <p class="btn-text">Button</p>
+                    </button>
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-5 usage">
+                    <h3>Usage</h3>
+                    <br>
+                    <ol>
+                        <li>This is a standard button used for accepting.</li>
+                        <li>It should be #339933 in colour.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-11 code">
+                    <div class="row">
+                        <div class="col-6 html">
+                            <h3>HTML</h3>
+                                <div class="code-view">
+                                    <code>
+                                        &lt;button class="main-btn"&gt;<br>
+                                            &lt;p class="btn-text"&gt;Button&lt;/p&gt;<br>
+                                        &lt;/button&gt;
+                                    </code>
+                                </div>
+                        </div>
+                        <div class="col-6 css">
+                            <h3>CSS</h3>
+                                <div class="code-view">
+                                    <code>
+                                        .main-btn {
+                                                background: #339933;<br>
+                                                border-radius: 5px;<br>
+                                                height: 30px;<br>
+                                                width: 100px;<br>
+                                                <br>
+                                                    .btn-text {<br>
+                                                        color: #fff;<br>
+                                                    }<br>
+                                            }
+                                    </code>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-5 component">
+                    <h3>Component</h3>
+                    <button class="hollow-btn">
+                        <p class="btn-text-alt">Button</p>
+                    </button>
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-5 usage">
+                    <h3>Usage</h3>
+                    <br>
+                    <ol>
+                        <li>This is the standard button for declining.</li>
+                        <li>The border and text of this are #339933.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-11 code">
+                    <div class="row">
+                        <div class="col-6 html">
+                            <h3>HTML</h3>
+                                <div class="code-view">
+                                    <code>
+                                        &lt;button class="hollow-btn"&gt;<br>
+                                            &lt;p class="btn-text-alt"&gt;Button&lt;/p&gt;<br>
+                                        &lt;/button&gt;
+                                    </code>
+                                </div>
+                        </div>
+                        <div class="col-6 css">
+                            <h3>CSS</h3>
+                                <div class="code-view">
+                                    <code>
+                                        .hollow-btn {
+                                                border-radius: 5px;<br>
+                                                height: 30px;<br>
+                                                width: 100px;<br>
+                                                border: 1px solid #339933;<br>
+                                                background: #fff;<br>
+                                                <br>
+                                                    .btn-text-alt {<br>
+                                                        color: #339933;<br>
+                                                    }<br>
+                                            }
+                                    </code>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-5 component">
+                    <h3>Component</h3>
+                    <button class="icon-btn">
+                        <p class="btn-text-left">Button</p>
+                        <img src="images/right-arrow.png" class="icon" alt="arrow">
+                    </button>
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-5 usage">
+                    <h3>Usage</h3>
+                    <br>
+                    <ol>
+                        <li>This is an action button.</li>
+                        <li>This features within the Jumbotron.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-11 code">
+                    <div class="row">
+                        <div class="col-6 html">
+                            <h3>HTML</h3>
+                                <div class="code-view">
+                                    <code>
+                                        &lt;button class="icon-btn"&gt;<br>
+                                            &lt;p class="btn-text-left"&gt;Button&lt;/p&gt;<br>
+                                        &lt;/button&gt;
+                                    </code>
+                                </div>
+                        </div>
+                        <div class="col-6 css">
+                            <h3>CSS</h3>
+                                <div class="code-view">
+                                    <code>
+                                        .icon-btn {<br>
+                                            background: #339933;<br>
+                                            border-radius: 5px;<br>
+                                            height: 30px;<br>
+                                            width: 100px;<br>
+                                            <br>
+                                            .btn-text-left {<br>
+                                                float: left;<br>
+                                                color: #fff;<br>
+                                                margin-left: 10px;<br>
+                                            }<br>
+                                        }<br>
+                                        <br>
+                                        .icon {<br>
+                                            height: 15px;<br>
+                                            width: 10px;<br>
+                                            float: right;<br>
+                                            margin-right: 10px;<br>
+                                        }
+                                    </code>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-5 component">
+                    <h3>Component</h3>
+                    <button class="btn-group-1">
+                        <p class="btn-text">Button</p>
+                    </button>
+                    <button class="btn-group-2">
+                        <p class="btn-text-alt">Button</p>
+                    </button>
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-5 usage">
+                    <h3>Usage</h3>
+                    <br>
+                    <ol>
+                        <li>Buttons should be aligned horizontally.</li>
+                        <li>They should have a margin of 15px.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-11 code">
+                    <div class="row">
+                        <div class="col-6 html">
+                            <h3>HTML</h3>
+                                <div class="code-view">
+                                    <code>
+                                       &lt;button class="btn-group-1"&gt;<br>
+                                            &lt;p class="btn-text"&gt;Button&lt;/p&gt;<br>
+                                        &lt;/button&gt;<br>
+                                        &lt;button class="btn-group-2"&gt;<br>
+                                            &lt;p class="btn-text-alt"&gt;Button&lt;/p&gt;<br>
+                                        &lt;/button&gt;
+                                    </code>
+                                </div>
+                        </div>
+                        <div class="col-6 css">
+                            <h3>CSS</h3>
+                                <div class="code-view">
+                                    <code>
+                                        .btn-group-1 {<br>
+                                            background: #339933;<br>
+                                            border-radius: 5px;<br>
+                                            height: 30px;<br>
+                                            width: 100px;<br>
+                                        }<br>
+                                        <br>
+                                        .btn-group-2 {<br>
+                                            border-radius: 5px;<br>
+                                            height: 30px;<br>
+                                            width: 100px;<br>
+                                            border: 1px solid #339933;<br>
+                                            background: #fff;<br>
+                                        }
+                                    </code>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-5 component">
+                    <h3>Component</h3>
+                    <a href="#" class="cnl"><p>Cancel</p></a>
+                        
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-5 usage">
+                    <h3>Usage</h3>
+                    <br>
+                    <ol>
+                        <li>Used as a cancelling method.</li>
+                        <li>Should always be underlined.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-11 code">
+                    <div class="row">
+                        <div class="col-6 html">
+                            <h3>HTML</h3>
+                                <div class="code-view">
+                                    <code>
+                                        &lt;a href="#" class="cnl"&gt;<br>
+                                            &lt;p&gt;Cancel&lt;/p&gt;<br>
+                                                &lt;/a&gt;
+                                    </code>
+                                </div>
+                        </div>
+                        <div class="col-6 css">
+                            <h3>CSS</h3>
+                                <div class="code-view">
+                                    <code>
+                                        .cnl {<br>
+                                            text-decoration: underline;<br>
+                                        }
+                                    </code>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-5 component">
+                    <h3>Component</h3>
+                    <button class="cfm-btn">
+                        <p class="btn-text-lrg">Confirm?</p>
+                    </button>
+                </div>
+                <div class="offset-1"></div>
+                <div class="col-5 usage">
+                    <h3>Usage</h3>
+                    <br>
+                    <ol>
+                        <li>Used to confirm any large action such as payments.</li>
+                        <li>Highlighted in bold to show difference between other buttons.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-11 code">
+                    <div class="row">
+                        <div class="col-6 html">
+                            <h3>HTML</h3>
+                                <div class="code-view">
+                                    <code>
+                                        &lt;button class="cfm-btn"&gt;<br>
+                                            &lt;p class="btn-text-lrg"&gt;Button&lt;/p&gt;<br>
+                                        &lt;/button&gt;
+                                    </code>
+                                </div>
+                        </div>
+                        <div class="col-6 css">
+                            <h3>CSS</h3>
+                                <div class="code-view">
+                                    <code>
+                                         .cfm-btn {<br>
+                                            background: #F2BC11;<br>
+                                            border-radius: 10px;<br>
+                                            height: 50px;<br>
+                                            width: 150px;<br>
+                                            <br>
+                                            .btn-text-lrg {<br>
+                                                color: #fff;<br>
+                                            }<br>
+                                        }
+                                    </code>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
